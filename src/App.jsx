@@ -16,10 +16,10 @@ function App() {
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/> 
       <div className="sections">
         <Intro />
-        <Contact />
         <Portofolio />
         <Testimoni />
         <Work />
+        <Contact />
       </div>
     </div>
   );
